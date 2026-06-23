@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LỤA BẠC | Trang sức bạc thủ công tinh tế</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#c6c7c2",
+                    "tertiary-container": "#f1f5fb",
+                    "on-tertiary-fixed": "#171c20",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "surface-container-high": "#e8e8e8",
+                    "on-surface-variant": "#454843",
+                    "on-surface": "#1a1c1c",
+                    "secondary-container": "#dee0e2",
+                    "surface-variant": "#e2e2e2",
+                    "surface-dim": "#dadada",
+                    "on-secondary-fixed-variant": "#444749",
+                    "on-secondary-fixed": "#191c1e",
+                    "on-background": "#1a1c1c",
+                    "primary-container": "#f5f5f0",
+                    "inverse-surface": "#2f3131",
+                    "primary-fixed-dim": "#c6c7c2",
+                    "on-secondary-container": "#606365",
+                    "surface-bright": "#f9f9f9",
+                    "surface-container": "#eeeeee",
+                    "tertiary": "#5a5f64",
+                    "on-primary": "#ffffff",
+                    "outline-variant": "#c5c7c1",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#c3c7cd",
+                    "inverse-on-surface": "#f0f1f1",
+                    "primary": "#5d5f5b",
+                    "on-primary-container": "#6f706c",
+                    "surface-container-low": "#f3f3f4",
+                    "on-tertiary-fixed-variant": "#43474c",
+                    "surface": "#f9f9f9",
+                    "on-primary-fixed": "#1a1c19",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed-dim": "#c4c7c9",
+                    "surface-tint": "#5d5f5b",
+                    "outline": "#757873",
+                    "on-tertiary-container": "#6b7075",
+                    "background": "#f9f9f9",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-primary-fixed-variant": "#454744",
+                    "tertiary-fixed": "#dfe3e9",
+                    "secondary-fixed": "#e1e3e5",
+                    "secondary": "#5c5f61",
+                    "primary-fixed": "#e3e3de"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "section-padding": "120px",
+                    "unit": "8px",
+                    "margin-desktop": "64px",
+                    "container-max": "1280px",
+                    "margin-mobile": "20px"
+            },
+            "fontFamily": {
+                    "display-lg": ["DM Sans"],
+                    "headline-lg": ["DM Sans"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "title-md": ["Hanken Grotesk"],
+                    "label-sm": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "headline-lg-mobile": ["DM Sans"]
+            },
+            "fontSize": {
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "300"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "title-md": ["20px", {"lineHeight": "28px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .silver-mist-shadow {
+            box-shadow: 0 10px 40px -10px rgba(163, 163, 163, 0.05);
+        }
+        .text-balance { text-wrap: balance; }
+        ::-webkit-scrollbar { width: 4px; height: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary/10">
+<!-- Top Navigation Bar -->
+<header class="docked full-width top-0 sticky z-50 bg-surface/80 backdrop-blur-xl border-b border-primary/5">
+<nav class="flex justify-between items-center w-full px-gutter max-w-container-max mx-auto h-20">
+<div class="font-display-lg text-title-md tracking-tighter text-on-surface">LỤA BẠC</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-primary border-b border-primary/30 pb-1 hover:text-primary transition-colors duration-300" href="#">Trang chủ</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Vòng tay</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Vòng cổ</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Nhẫn</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Lắc bạc</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Charm</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">Liên hệ</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">search</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">shopping_bag</button>
+<button class="hidden md:block bg-primary text-white font-label-sm text-label-sm px-6 py-2 uppercase tracking-widest rounded-full hover:bg-on-surface transition-all duration-300 active:opacity-70">Mua ngay</button>
+<button class="md:hidden material-symbols-outlined">menu</button>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="relative h-[921px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-1000 hover:scale-105" data-alt="A high-end lifestyle photography shot of a woman's hand wearing multiple delicate silver handmade charm bracelets and necklaces. The scene is bathed in soft, ethereal natural light filtered through sheer curtains, creating a serene and luxurious atmosphere. The color palette consists of soft beige, warm whites, and the cool metallic shimmer of polished 925 silver. The composition is artistic and minimalist, emphasizing the intricate craftsmanship of the jewelry against a blurred, elegant background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDjLElqS_6FCYtifGh4_gYTKgTdFF1xvkH5AKmBNP7Ed0JZhBqVcDZCegnJkl_0ddDFaWvpOl30adtFjxvvQ1meUW2AwnBUX3auzTzwLbBt54Dv6b7ntn3NCANWu3nYseLBbCZUZLXGO_hX-SFx69LkbH8HEY87ypbGDQG2j0MfmTdXyim11jbpyscXGggKh9rXbyk7mdo5M6s2I9mcZFUszZZ1JqMDZmpPnOu5oa4LGkgH7bn3fWEqRsc1wCS877uO-Jw69jUXCdk')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-background/60 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-gutter w-full">
+<div class="max-w-2xl">
+<h1 class="font-display-lg text-display-lg md:text-display-lg text-on-surface text-balance mb-6 animate-fade-in">
+                    Trang sức thủ công dành cho những khoảnh khắc đặc biệt
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 opacity-90">
+                    Mỗi chiếc charm là một câu chuyện, mỗi món trang sức là một dấu ấn riêng.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-full font-label-sm text-label-sm uppercase tracking-widest hover:bg-on-surface-variant transition-all silver-mist-shadow">
+                        Khám phá bộ sưu tập
+                    </button>
+<button class="border border-outline text-on-surface px-8 py-4 rounded-full font-label-sm text-label-sm uppercase tracking-widest hover:bg-surface-container transition-all">
+                        Thiết kế theo yêu cầu
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Story -->
+<section class="py-section-padding bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Câu chuyện của LỤA BẠC</h2>
+<div class="w-12 h-[1px] bg-primary/30 mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="text-center space-y-4 group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mx-auto transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">handyman</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Chế tác thủ công</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Từng chi tiết được tỉ mỉ hoàn thiện bởi những nghệ nhân kim hoàn tâm huyết.</p>
+</div>
+<div class="text-center space-y-4 group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mx-auto transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl" data-weight="fill">verified</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Chất liệu cao cấp</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Sử dụng bạc S925 chuẩn quốc tế, mang lại độ sáng bóng bền bỉ và an toàn.</p>
+</div>
+<div class="text-center space-y-4 group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mx-auto transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">draw</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Thiết kế độc quyền</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Mẫu mã riêng biệt, không đại trà, mang đậm dấu ấn cá nhân của chủ sở hữu.</p>
+</div>
+<div class="text-center space-y-4 group">
+<div class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mx-auto transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">shield_lock</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface">Bảo hành uy tín</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Chế độ hậu mãi chu đáo, làm sạch và đánh bóng trọn đời cho mọi sản phẩm.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Products -->
+<section class="py-section-padding">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="flex justify-between items-end mb-12">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Sản phẩm tiêu biểu</h2>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all" href="#">Xem tất cả</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Product 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container mb-6 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A macro photography shot of a delicate silver charm bracelet featuring a single lotus flower charm. The background is a soft beige linen texture with gentle shadows cast by afternoon light. The silver has a refined luster, showcasing the intricate handmade details of the petals. Minimalist and luxury aesthetic, light mode palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGBYlwdsTZ4liSGTz50ZHqNbhrv2qEvsz71ylFvnGPM1GcUxWJ7oTZ9JRBhEeoNmhFRqsPbCaFKo7W3UjdnmpM17voZRm9DL7i-W069acO5aJX39y7CJEqR6ls567VFZl1tiBXggKLw3whz6oKbUugMfDSho0n9uLhjTcH1MG0X-BwAxFD74jyNCfmSdgWIMUd-fS177s7atmlvYB3prW5kdzGLuLxwi-a33ho-QVuiZTs5rdMoGrXqfWlbBmasVQBAKGrAop0tcI"/>
+<div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="bg-white/80 backdrop-blur p-2 rounded-full silver-mist-shadow">
+<span class="material-symbols-outlined text-primary">favorite</span>
+</button>
+</div>
+</div>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Vòng tay Charm</p>
+<h3 class="font-title-md text-title-md text-on-surface">Lotus Blossom Bracelet</h3>
+<p class="font-body-md text-body-md text-primary font-medium">1,250,000đ</p>
+<button class="pt-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                            Xem chi tiết <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container mb-6 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A minimalist silver necklace with a small, elegant celestial moon pendant. The jewelry is presented on a smooth white marble surface under soft, natural lighting. The composition is clean and focused, highlighting the artisanal silver finish and thin, graceful chain. Luxury branding style with airy whitespace and pastel undertones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlX7RJBEHCv5XYpiQuU8x0vOtc11JGRT2OzWNz9eSg7yGl3DiFsyRBC695y016pS2xkz-_QQNvYroxNAhFJfDLdIgTOy2TUKeDIjTon2UM3KEeI550XC_WwO6PgObtmN4ySduZFNIEG0tFpjLbUCZSUscB8wdMhpxr-f0RaNdqYSDrydFUHPCLjzbNpIKXc8DjaLdhRrw9CVTM1PYQ2dXPOM9P3GrSxQiG7fIqZfqmVCyzI6EQF4lzO33uIf9gKosV7KLLTlgu_WQ"/>
+<div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="bg-white/80 backdrop-blur p-2 rounded-full silver-mist-shadow">
+<span class="material-symbols-outlined text-primary">favorite</span>
+</button>
+</div>
+</div>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Vòng cổ Bạc</p>
+<h3 class="font-title-md text-title-md text-on-surface">Moonlight Grace Necklace</h3>
+<p class="font-body-md text-body-md text-primary font-medium">850,000đ</p>
+<button class="pt-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                            Xem chi tiết <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container mb-6 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Two matching silver charm beads designed for couples, featuring an interlocking geometric pattern. The charms are placed on a soft, light grey silk fabric. The lighting is diffused and romantic, capturing the subtle reflections of the silver. Artisanal minimalism with high-end product photography standards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4bpcEDmIS4pC5yMdOx-dBcFqQAkIVkJeakiYwe0mqoKQLuoDKWysKLEXt_8B_rId81DRxm1pw2kaV6cUwwQRU9ZN-RdFCTEKoQYSzv8BMHGgb0OUHeb58Tl4K-fK-zqNVMzD0MTjW7V_qjP1oWvaru0w6kxRe0yy4XbVB-v-8aAuavodIiHUlyIg1gB0j85m6_ea6_URa1RGidwaJCaZGBWyxDEwYBIIXcO3F9avl-XMuhzSmcLG_xdsUD73RMUHzYDS_dWtSGvA"/>
+<div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="bg-white/80 backdrop-blur p-2 rounded-full silver-mist-shadow">
+<span class="material-symbols-outlined text-primary">favorite</span>
+</button>
+</div>
+</div>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Charm Cặp Đôi</p>
+<h3 class="font-title-md text-title-md text-on-surface">Unity Bond Charms</h3>
+<p class="font-body-md text-body-md text-primary font-medium">1,800,000đ</p>
+<button class="pt-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                            Xem chi tiết <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-primary-container mb-6 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A collection of handmade silver rings with organic, textured surfaces. The rings are arranged artistically on a piece of light-colored driftwood. Natural, earthy lighting emphasizes the hand-crafted nature of the silver. Sophisticated, quiet luxury aesthetic with a palette of whites, beiges, and metallic silver." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzMSjWioeD-4XP89SNe7ZZshVqCeRFgXwl9ip4y8oWmYybJXEqyBfd1dzDquYCEfptIJbaKBx5HxR3OjdxsnSCsAuOgioffiSQiknRDVag3XZwZUB0lVI4pqu1wUzXCxyAEegylg8kd814NY1gQTWOh2nPi5xDp5fJHWJsOhQPEHdrruWb9Q4_Rpvbk0hMKqdAgreQ-1oVIgmL5E5qf74sR0BYySCkfX6jvgFvuith8MSP4ysVP8kcESkRzYzk14vUn-ST-ZiqfsA"/>
+<div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+<button class="bg-white/80 backdrop-blur p-2 rounded-full silver-mist-shadow">
+<span class="material-symbols-outlined text-primary">favorite</span>
+</button>
+</div>
+</div>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Nhẫn Thủ Công</p>
+<h3 class="font-title-md text-title-md text-on-surface">Ocean Ripple Rings</h3>
+<p class="font-body-md text-body-md text-primary font-medium">650,000đ</p>
+<button class="pt-2 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors flex items-center gap-2">
+                            Xem chi tiết <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Charm Collection Carousel -->
+<section class="py-section-padding bg-primary-container/30 overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter mb-12 flex items-center justify-between">
+<div class="space-y-2">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Chọn Charm – Kể Câu Chuyện Của Riêng Bạn</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Những mảnh ghép nhỏ bé mang ý nghĩa lớn lao.</p>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-white transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex gap-6 overflow-x-auto pb-8 px-gutter no-scrollbar snap-x">
+<!-- Charm Categories -->
+<div class="min-w-[280px] snap-center">
+<div class="aspect-square bg-white rounded-full flex flex-col items-center justify-center p-8 silver-mist-shadow group cursor-pointer hover:-translate-y-2 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary mb-4" data-weight="fill">favorite</span>
+<h4 class="font-title-md text-title-md text-on-surface">Tình yêu</h4>
+</div>
+</div>
+<div class="min-w-[280px] snap-center">
+<div class="aspect-square bg-white rounded-full flex flex-col items-center justify-center p-8 silver-mist-shadow group cursor-pointer hover:-translate-y-2 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary mb-4" data-weight="fill">family_restroom</span>
+<h4 class="font-title-md text-title-md text-on-surface">Gia đình</h4>
+</div>
+</div>
+<div class="min-w-[280px] snap-center">
+<div class="aspect-square bg-white rounded-full flex flex-col items-center justify-center p-8 silver-mist-shadow group cursor-pointer hover:-translate-y-2 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary mb-4" data-weight="fill">stars</span>
+<h4 class="font-title-md text-title-md text-on-surface">May mắn</h4>
+</div>
+</div>
+<div class="min-w-[280px] snap-center">
+<div class="aspect-square bg-white rounded-full flex flex-col items-center justify-center p-8 silver-mist-shadow group cursor-pointer hover:-translate-y-2 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary mb-4" data-weight="fill">auto_awesome</span>
+<h4 class="font-title-md text-title-md text-on-surface">Cung hoàng đạo</h4>
+</div>
+</div>
+<div class="min-w-[280px] snap-center">
+<div class="aspect-square bg-white rounded-full flex flex-col items-center justify-center p-8 silver-mist-shadow group cursor-pointer hover:-translate-y-2 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary mb-4" data-weight="fill">group</span>
+<h4 class="font-title-md text-title-md text-on-surface">Cặp đôi</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Customer Reviews -->
+<section class="py-section-padding">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-2">Cảm nhận từ khách hàng</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Sự hài lòng của bạn là niềm tự hào của LỤA BẠC</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-low p-8 rounded-xl silver-mist-shadow flex flex-col justify-between">
+<div>
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"Mình cực kỳ hài lòng với chiếc vòng charm tự thiết kế. Từng chi tiết đều sắc sảo, bạc sáng và đeo rất sang tay. Đóng gói cũng rất nghệ thuật!"</p>
+</div>
+<p class="font-label-sm text-label-sm font-semibold uppercase text-on-surface">— Minh Anh, Hà Nội</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl silver-mist-shadow flex flex-col justify-between">
+<div>
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"Món quà kỷ niệm tuyệt vời nhất mình từng mua. Nhân viên tư vấn rất nhiệt tình để mình chọn được charm ý nghĩa cho bạn gái."</p>
+</div>
+<p class="font-label-sm text-label-sm font-semibold uppercase text-on-surface">— Hoàng Nam, Đà Nẵng</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl silver-mist-shadow flex flex-col justify-between">
+<div>
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">star</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant mb-6">"Thích phong cách tối giản mà tinh tế của shop. Bạc ở đây đúng là cao cấp, mình đeo lâu rồi mà vẫn giữ được độ bóng."</p>
+</div>
+<p class="font-label-sm text-label-sm font-semibold uppercase text-on-surface">— Thùy Chi, TP. HCM</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner -->
+<section class="py-16 px-gutter max-w-container-max mx-auto mb-section-padding">
+<div class="relative rounded-3xl overflow-hidden min-h-[400px] flex items-center justify-center text-center px-6">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="An artistic, blurred background of a jewelry workshop with soft focus on silver crafting tools and shimmering silver materials. The atmosphere is warm and creative, with golden-hour sunlight streaming across a wooden workbench. Minimalist aesthetic with plenty of negative space for text overlay. Color palette: warm wood, metallic silver, soft white." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAI9YQKKVQhCrrtJ8e9cK6k35kwbAMQjO-yCrW_jFa5FeX7FJxay1EZknyp_sv9D-zRXQLx1PeT0EJm_POXjakyfeVj5vHDM80lGDMLz3Z-GQw6NS9wig2mkSRaXudrfiTK8KFAtkUeU0dqxC9rjXz5CGu050tMCMrlqEA7LDgwK2uXm2MKGLEZ1OEDIulmg8ytWJN1XoyNUQ-s4Yo-ao7KYv2nUt2O2dvDMwHGPkd6HS3mm9IA5TXrYnnWFpT3k0wn8UBksTafziQ')">
+</div>
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-[2px]"></div>
+</div>
+<div class="relative z-10 max-w-xl">
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg text-white mb-6">Tạo chiếc vòng mang dấu ấn riêng của bạn</h2>
+<p class="font-body-lg text-body-lg text-white/90 mb-10">Kết nối những kỷ niệm thông qua từng viên charm bạn tự chọn.</p>
+<button class="bg-white text-primary px-10 py-4 rounded-full font-label-sm text-label-sm uppercase tracking-widest hover:bg-primary-container transition-all silver-mist-shadow">
+                    Thiết kế ngay
+                </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-primary/5">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-gutter py-section-padding max-w-container-max mx-auto">
+<div class="space-y-6">
+<div class="font-display-lg text-headline-lg text-primary">LỤA BẠC</div>
+<p class="font-body-md text-body-md text-on-surface-variant">LỤA BẠC mang đến những sản phẩm trang sức bạc thủ công tinh tế, giúp bạn lưu giữ những khoảnh khắc quý giá trong đời.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline flex items-center justify-center hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">face_nod</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline flex items-center justify-center hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline flex items-center justify-center hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">music_note</span>
+</a>
+</div>
+</div>
+<div class="space-y-6">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface font-bold">Khám phá</h4>
+<ul class="space-y-3 font-body-md text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Vòng tay Charm</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Vòng cổ tinh tế</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Nhẫn nghệ nhân</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Bộ sưu tập mới</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Dịch vụ thiết kế</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface font-bold">Hỗ trợ</h4>
+<ul class="space-y-3 font-body-md text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Chính sách bảo hành</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Hướng dẫn đo size</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Vận chuyển &amp; Giao hàng</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Câu hỏi thường gặp</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Liên hệ chúng tôi</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface font-bold">Liên hệ</h4>
+<ul class="space-y-4 font-body-md text-on-surface-variant">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>123 Phố Lụa, Vạn Phúc, Hà Đông, Hà Nội</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">call</span>
+<span>+84 987 654 321</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>hello@luabac.vn</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-primary/5 py-8">
+<div class="max-w-container-max mx-auto px-gutter flex flex-col md:row justify-between items-center gap-4 text-center md:text-left">
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 LỤA BẠC Handmade Jewelry. All rights reserved.</p>
+<div class="flex gap-8 font-label-sm text-[10px] uppercase tracking-widest text-on-surface-variant">
+<a class="hover:text-primary" href="#">Điều khoản sử dụng</a>
+<a class="hover:text-primary" href="#">Chính sách bảo mật</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Simple Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section > div').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body></html>
